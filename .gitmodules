@@ -1,45 +1,60 @@
 [submodule "ProjectGameReinosFracturados"]
 	path = ProjectGameReinosFracturados
 	url = https://github.com/JMNK19/ProjectGameReinosFracturados.git
+	ignore = all
 [submodule "PrototipoFIREPUNCH"]
 	path = PrototipoFIREPUNCH
 	url = https://github.com/andresitogaaa/PrototipoFIREPUNCH.git
+	ignore = all
 [submodule "BlacKnight"]
 	path = BlacKnight
 	url = https://github.com/rodrigomartinez99/BlacKnight.git
+	ignore = all
 [submodule "PirataMalaplata"]
 	path = PirataMalaplata
 	url = https://github.com/Dupskops/PirataMalaplata.git
+	ignore = all
 [submodule "Game_peru"]
 	path = Game_peru
 	url = https://github.com/JuJo18/Game_peru.git
+	ignore = all
 [submodule "GOBLIN_CHOP_CHOP"]
 	path = GOBLIN_CHOP_CHOP
 	url = https://github.com/LUFFY538/GOBLIN_CHOP_CHOP.git
+	ignore = all
 [submodule "Loomlight-Studios"]
 	path = Loomlight-Studios
-	url = https://github.com/Joseph726sa/Loomlight-Studios
+	url = https://github.com/Joseph726sa/Loomlight-Studios.git
+	ignore = all
 [submodule "Proyect2"]
 	path = Proyect2
 	url = https://github.com/Emma3TC-main/Proyect2.git
+	ignore = all
 [submodule "the-cursed-mansion"]
 	path = the-cursed-mansion
 	url = https://github.com/abelreyna/the-cursed-mansion.git
+	ignore = all
 [submodule "FINAL--CUEVA"]
 	path = FINAL--CUEVA
 	url = https://github.com/AlisSon0611/FINAL--CUEVA.git
+	ignore = all
 [submodule "PIRATA_MALAPLATA"]
 	path = PIRATA_MALAPLATA
 	url = https://github.com/ariana2302/PIRATA_MALAPLATA.git
+	ignore = all
 [submodule "Forgotten-Island"]
 	path = Forgotten-Island
 	url = https://github.com/Growthen/Forgotten-Island.git
+	ignore = all
 [submodule "new-game"]
 	path = new-game
-	url = https://github.com/TheCrimsondev/new-game
+	url = https://github.com/TheCrimsondev/new-game.git
+	ignore = all
 [submodule "The_Creators_Game"]
 	path = The_Creators_Game
-	url = https://github.com/angellagos/The_Creators_Game
+	url = https://github.com/angellagos/The_Creators_Game.git
+	ignore = all
 [submodule "Left2Dead"]
 	path = Left2Dead
 	url = https://github.com/Genaro-Robles/Left2Dead.git
+	ignore = all
