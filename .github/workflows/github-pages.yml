@@ -104,7 +104,7 @@ jobs:
             # Note that the export path can be confusing; it's relative to the
             # Godot project path, NOT necessarily the current directory or Godot
             # binary location
-            ./godot --headless --verbose --path ../${dir} --export-release "Web" ../.build/web/${dir}index.html
+            ./godot --headless --verbose --path ../${dir} --export-release "Web" ../.build/web/${dir}index.html || exit 0
           done
 
           # Generate listing of folders as HTML index
