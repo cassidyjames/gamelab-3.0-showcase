@@ -51,7 +51,7 @@
 	url = https://github.com/TheCrimsondev/new-game.git
 	ignore = all
 [submodule "The_Creators_Game"]
-	path = The_Creators_Game
+	path = The_Creators_Game/The_Creators
 	url = https://github.com/angellagos/The_Creators_Game/The_Creators
 	ignore = all
 [submodule "Left2Dead"]
