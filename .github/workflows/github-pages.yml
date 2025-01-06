@@ -86,6 +86,7 @@ jobs:
           touch ._sc_
 
       - name: Web Build
+        continue-on-error: true
         run: |
           mkdir -v -p .build/web && cd .build
 
@@ -104,7 +105,7 @@ jobs:
             # Note that the export path can be confusing; it's relative to the
             # Godot project path, NOT necessarily the current directory or Godot
             # binary location
-            ./godot --headless --verbose --path ../${dir} --export-release "Web" ../.build/web/${dir}index.html || exit 0
+            ./godot --headless --verbose --path ../${dir} --export-release "Web" ../.build/web/${dir}index.html
           done
 
           # Generate listing of folders as HTML index
