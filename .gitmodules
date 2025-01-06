@@ -1,0 +1,45 @@
+[submodule "ProjectGameReinosFracturados"]
+	path = ProjectGameReinosFracturados
+	url = https://github.com/JMNK19/ProjectGameReinosFracturados.git
+[submodule "PrototipoFIREPUNCH"]
+	path = PrototipoFIREPUNCH
+	url = https://github.com/andresitogaaa/PrototipoFIREPUNCH.git
+[submodule "BlacKnight"]
+	path = BlacKnight
+	url = https://github.com/rodrigomartinez99/BlacKnight.git
+[submodule "PirataMalaplata"]
+	path = PirataMalaplata
+	url = https://github.com/Dupskops/PirataMalaplata.git
+[submodule "Game_peru"]
+	path = Game_peru
+	url = https://github.com/JuJo18/Game_peru.git
+[submodule "GOBLIN_CHOP_CHOP"]
+	path = GOBLIN_CHOP_CHOP
+	url = https://github.com/LUFFY538/GOBLIN_CHOP_CHOP.git
+[submodule "Loomlight-Studios"]
+	path = Loomlight-Studios
+	url = https://github.com/Joseph726sa/Loomlight-Studios
+[submodule "Proyect2"]
+	path = Proyect2
+	url = https://github.com/Emma3TC-main/Proyect2.git
+[submodule "the-cursed-mansion"]
+	path = the-cursed-mansion
+	url = https://github.com/abelreyna/the-cursed-mansion.git
+[submodule "FINAL--CUEVA"]
+	path = FINAL--CUEVA
+	url = https://github.com/AlisSon0611/FINAL--CUEVA.git
+[submodule "PIRATA_MALAPLATA"]
+	path = PIRATA_MALAPLATA
+	url = https://github.com/ariana2302/PIRATA_MALAPLATA.git
+[submodule "Forgotten-Island"]
+	path = Forgotten-Island
+	url = https://github.com/Growthen/Forgotten-Island.git
+[submodule "new-game"]
+	path = new-game
+	url = https://github.com/TheCrimsondev/new-game
+[submodule "The_Creators_Game"]
+	path = The_Creators_Game
+	url = https://github.com/angellagos/The_Creators_Game
+[submodule "Left2Dead"]
+	path = Left2Dead
+	url = https://github.com/Genaro-Robles/Left2Dead.git
