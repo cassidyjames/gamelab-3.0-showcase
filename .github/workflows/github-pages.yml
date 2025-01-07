@@ -88,6 +88,8 @@ jobs:
       - name: Web Build
         continue-on-error: true
         run: |
+          set +e # Don't fail fast
+
           mkdir -v -p .build/web && cd .build
 
           # Iterate over each folder to build it
