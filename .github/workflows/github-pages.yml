@@ -101,6 +101,10 @@ jobs:
             # Copy our template export presets into the project, overwriting any that are there
             cp --force ../.template/export_presets.cfg ../${dir}
 
+            # Create folders to prevent errors
+            mkdir -v -p ../${dir}.godot/editor
+            mkdir -v -p ../${dir}.godot/imported
+
             # Create the folder to export each game into
             mkdir web/${dir}
 
