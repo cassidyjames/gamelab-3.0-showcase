@@ -108,6 +108,9 @@ jobs:
             # Create the folder to export each game into
             mkdir web/${dir}
 
+            # Debug 
+            pwd && ls -sl
+
             # Note that the export path can be confusing; it's relative to the
             # Godot project path, NOT necessarily the current directory or Godot
             # binary location
