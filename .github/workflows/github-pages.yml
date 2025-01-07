@@ -59,9 +59,9 @@ jobs:
         uses: actions/cache@v4
         with:
           path: |
-            build/godot-${{ env.GODOT_VERSION }}
-            build/._sc_
-            build/editor_data/export_templates/${{ env.GODOT_VERSION }}.stable
+            .build/godot
+            .build/._sc_
+            .build/editor_data/export_templates/${{ env.GODOT_VERSION }}.stable
           key: godot-${{ env.GODOT_VERSION }}
 
       - name: Download Godot Engine from GitHub release
@@ -114,7 +114,7 @@ jobs:
             # Note that the export path can be confusing; it's relative to the
             # Godot project path, NOT necessarily the current directory or Godot
             # binary location
-            ./godot --headless --verbose --path ../${dir} --export-release "Web" web/${dir}index.html
+            ./godot --headless --verbose --path ../${dir} --export-release "Web" ./web/${dir}index.html
           done
 
           # Generate listing of folders as HTML index
