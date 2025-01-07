@@ -53,6 +53,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           lfs: true
+          submodules: true
 
       - name: Cache Godot Engine downloads
         id: cache-godot
@@ -90,35 +91,32 @@ jobs:
         run: |
           set +e # Don't fail fast
 
-          mkdir -v -p .build/web && cd .build
+          mkdir -v -p .build/web
 
           # Iterate over each folder to build it
-          for dir in ../*/
+          for dir in */
           do
-            dir=${dir//'../'}
+            dir=${dir//'/'}
             echo "Building ${dir}!"
 
             # Copy our template export presets into the project, overwriting any that are there
-            cp --force ../.template/export_presets.cfg ../${dir}
+            cp --force .template/export_presets.cfg ${dir}/
 
             # Create folders to prevent errors
-            mkdir -v -p ../${dir}.godot/editor
-            mkdir -v -p ../${dir}.godot/imported
+            mkdir -v -p ${dir}/.godot/editor
+            mkdir -v -p ${dir}/.godot/imported
 
             # Create the folder to export each game into
-            mkdir web/${dir}
-
-            # Debug 
-            pwd && ls -sl
+            mkdir .build/web/${dir}/
 
             # Note that the export path can be confusing; it's relative to the
             # Godot project path, NOT necessarily the current directory or Godot
             # binary location
-            ./godot --headless --verbose --path ../${dir} --export-release "Web" ../.build/web/${dir}index.html
+            ./.build/godot --headless --verbose --path ${dir} --export-release "Web" ../.build/web/${dir}/index.html
           done
 
           # Generate listing of folders as HTML index
-          cd web && tree -d -L 1 -H . -T "Gamelab 3.0 Showcase" -o index.html --noreport
+          cd .build/web && tree -d -L 1 -H . -T "Gamelab 3.0 Showcase" -o index.html --noreport
 
       - name: Upload Artifact
         uses: actions/upload-pages-artifact@v3
