@@ -117,7 +117,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           name: web
-          path: build/web
+          path: .build/web
 
   publish:
     name: Publish to GitHub Pages
