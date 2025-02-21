@@ -58,3 +58,12 @@
 	path = Left2Dead
 	url = https://github.com/Genaro-Robles/Left2Dead.git
 	ignore = all
+[submodule "It-s-Not-Hard...or-is-it-godot"]
+	path = It-s-Not-Hard...or-is-it-godot
+	url = https://github.com/Russell-CJ/It-s-Not-Hard...or-is-it-godot.git
+[submodule "Lost-Space"]
+	path = Lost-Space
+	url = https://github.com/Yamada-decs/Lost-Space.git
+[submodule "VeaDuende"]
+	path = VeaDuende
+	url = https://github.com/Chox13/VeaDuende.git
